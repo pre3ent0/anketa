@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  font-family: 'Pacifico', cursive;
+
+  background: url(../img/phon.jpg);
+}
+.front {
+  width: 500px;
+  height: 800px;
+
+  background-color: pink;
+
+  box-shadow: inset -10px 0px 10px rgba(0, 0, 0, 0.498);
+
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.back {
+  width: 500px;
+  height: 800px;
+
+  background-color: pink;
+
+  box-shadow: inset 10px 0px 10px rgba(0, 0, 0, 0.412);
+
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.front__title {
+  text-align: center;
+
+  margin-bottom: 50px;
+  margin-top: 25px;
+}
+.front__input {
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+.front__input:nth-child(5) {
+  margin-bottom: 100px;
+}
+.input__text {
+  color: rgba(246, 62, 11, 0.925);
+}
+.back {
+  position: relative;
+}
+.back__img {
+  position: absolute;
+  top: 640px;
+  left: 100px;
+
+  width: 100px;
+
+  transform: rotate(-30deg)
+}
+.back__input {
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.back__title {
+  font-size: 30px;
+
+  text-align: center;
+
+  margin-top: 25px;
+}
+.ending {
+  position: absolute;
+  bottom: 22px;
+}
+.ending__btn {
+  font-size: 50px;
+
+  border: none;
+
+  background-color: #ccc;
+
+  cursor: pointer;
+
+  text-decoration: none;
+
+  color: red;
+}
